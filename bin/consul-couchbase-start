@@ -14,7 +14,7 @@ then
 
     # Start the bootstrap script and background it
     # the bootstrap will wait for Couchbase to start, then die when done
-    /usr/local/bin/couchbase-bootstrap &
+    python /usr/local/bin/couchbase-bootstrap.py &
 
     # Start Couchbase
     /entrypoint.sh "$@"

@@ -1,0 +1,185 @@
+status: 200
+content-length: 4491
+content-location: http://veacks.net
+accept-ranges: bytes
+expires: Mon, 28 Dec 2015 07:23:08 GMT
+server: Apache
+last-modified: Thu, 03 Oct 2013 16:39:40 GMT
+x-ua-compatible: IE=edge,chrome=1
+cache-control: max-age=0
+date: Mon, 28 Dec 2015 07:23:08 GMT
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+
+<!doctype html>
+<!--[if lte IE 8 ]> <html lang="fr" class="no-js oldie"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="fr" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	
+	<title>Veacks.net - FRONT-END ENGINEERING & CONCEPTION</title>
+	<meta name="description" content="FRONT-END ENGINEERING & CONCEPTION"/>
+	
+	<base href="/"/>
+	
+	<link rel="stylesheet" href="tempCss/fonts.css"/>
+	<link rel="stylesheet" href="tempCss/style.css"/>
+	
+	<style type="text/css">
+header {
+	position:absolute;
+	background:url('../pictures/bg_cartouche_header.gif') no-repeat 0 100%;
+	/*height:189px;*/
+	left:50%;
+	margin-left:-200px;
+	top:50%;
+	margin-top:-166px;
+	-moz-box-shadow: 0 0 9px #333333;
+	-webkit-box-shadow: 0 0 9px #333333;
+	-ms-box-shadow: 0 0 9px #333333;
+	box-shadow: 0 0 9px #333333;
+	text-align:center;
+	padding:30px;
+}
+
+header hgroup {
+	position:relative;
+	background:url('../pictures/bg_header.gif') no-repeat 0 0;
+	width:340px;
+	z-index:1;
+	/*height:98px;*/
+}
+
+header hgroup h1 {
+	position:relative;
+	margin:0;
+	/*padding:20px 0 0 29px;*/
+	/*bottom: 6px;
+	right:0;*/
+	
+}
+
+header hgroup h2 {
+	font-family:"wilmabas", helvetica, sans-serif;
+	font-size:14px;
+	margin:0;
+	/*padding:12px 0 0 32px;*/
+	text-transform:uppercase;
+	font-weight:normal;
+}
+
+header hgroup h2 a,
+header hgroup h2 a:visited {
+	color:#000000;
+	text-decoration:none;
+}
+
+header hgroup h2 acronym {
+	border-bottom: 1px solid #000000;
+}
+
+header h3 {
+	font-family:"wilmabas", helvetica, sans-serif;
+	font-size:12px;
+}
+
+.soon {
+	display:block; /*padding:20px 0 0 32px;*/ list-style:none;
+}
+
+header ul {
+	padding:0;
+	list-style:none;
+}
+
+header dl {
+	text-align:left;
+	padding-left: 15px;
+	-ms-box-shadow: inset 0 0 9px #333;
+	-moz-box-shadow: inset 0 0 9px #333;
+	-webkit-box-shadow: inset 0 0 9px #333;
+	box-shadow: inset 0 0 9px #333;
+	background: rgba(0, 0, 0,.1);
+}
+
+header dl a, header dl a:visited {
+	color:#23B22A;
+	padding:0 3px;
+	margin:0 1px;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+}
+
+header dl a:hover {
+	background-color:#23B22A;
+	color:#fff;
+	text-decoration:none;
+}
+
+header dt {
+	float:left;
+	clear:both;
+	margin-right:10px;
+	width:140px;
+}
+
+header dd {
+	margin:0;
+	font-size:12px;
+	float:left;
+}
+
+header dl dd ul li {
+	display:inline;
+}
+
+header dl dd ul li:not(:last-child):after {
+	content:" - ";
+} 
+	</style>
+	<script src="tempJs/libs/modernizr-2.0.6.min.js"></script>
+</head>
+<body>
+	<header>
+			<hgroup role="banner">
+				<h1><a href="http://www.veacks.net/"><img src="tempImg/veacks_logo.gif" alt="Veacks.net"/></a></h1>
+				<h2><a href="http://www.veacks.net/"><acronym title="Graphical User Interface">Front-End</acronym> engineering &amp; conception</a></h2>
+			</hgroup>
+			<p class="soon">
+				New version online soon!
+			</p>
+			<hr/>
+			<dl class="soon clearfix">
+				<dt>
+					<h3>LinkedIn :</h3>
+				</dt>
+				<dd>
+					<ul>
+						<li><a href="http://au.linkedin.com/pub/valentin-dubois/1a/379/10a/en" title="Valentin Dubois - LinkedIn English / Front-End Engineer : Javascript (native, jQuery, Backbone.js), HTML5, CSS3, Accessibility, SEO & Node.js." target="_blank">English</a></li>
+						<li><a href="http://au.linkedin.com/pub/valentin-dubois/1a/379/10a"  title="Valentin Dubois - LinkedIn French / Front-End Engineer : Javascript (native, jQuery, Backbone.js), HTML5, CSS3, Accessibility, SEO & Node.js." target="_blank">French</a></li>
+					</ul>
+				</dd>
+				<dt>
+					<h3>Viadeo :</h3>
+				</dt>
+				<dd>
+					<ul>
+						<li><a href="http://fr.viadeo.com/fr/profile/valentin.dubois1" title="Valentin Dubois - Viadeo French / Front-End Engineer : Javascript (native, jQuery, Backbone.js), HTML5, CSS3, Accessibility, SEO & Node.js." target="_blank">French</a></li>
+					</ul>
+				</dd>
+				<dt>
+					<h3>Curriculum Vitae :</h3>
+				</dt> 
+				<dd>
+					<ul>
+						<li>English (<a href="cv/DUBOIS_Valentin_CV_EN_10-2013.pdf" title="Valenin Dubois - CV PDF English Version / Front-End Engineer : Javascript (native, jQuery, Backbone.js), HTML5, CSS3, Accessibility, SEO & Node.js."  target="_blank">PDF</a> / <a href="cv/DUBOIS_Valentin_CV_EN_10-2013.doc" title="Valenin Dubois - CV MS WORD English Version / Front-End Engineer : Javascript (native, jQuery, Backbone.js), HTML5, CSS3, Accessibility, SEO & Node.js." target="_blank">MS WORD</a>)</li>
+					</ul>
+				</dd>
+			<dl>
+	</header>
+</body>
+</html>
+</body>
+</html>

@@ -104,37 +104,6 @@ if [ $? -eq 0 ]; then
     exit
 fi
 
-echo
-echo '#'
-echo '# Checking Consul availability'
-echo '#'
-
-if [[ $CONSUL_IP && ${CONSUL_IP-x} ]]
-    then
-    export CONSUL_IP=$CONSUL_IP
-    if [[ $CONSUL_PORT && ${CONSUL_PORT-x} ]]
-        then
-        export CONSUL_PORT=$CONSUL_PORT
-    else
-        export CONSUL_PORT=8500
-    fi
-else
-    export CONSUL_IP=consul
-    export CONSUL_PORT=8500
-fi
-
-curl -fs --retry 7 --retry-delay 3 http://$CONSUL_IP:$CONSUL_PORT/v1/agent/services &> /dev/null
-if [ $? -ne 0 ]
-then
-    echo '#'
-    echo '# Consul is required, but unreachable'
-    echo '#'
-    exit
-else
-    echo '# Consul instance found and responsive'
-    echo '#'
-fi
-
 COUCHBASERESPONSIVE=0
 while [ $COUCHBASERESPONSIVE != 1 ]; do
     echo -n '.'
